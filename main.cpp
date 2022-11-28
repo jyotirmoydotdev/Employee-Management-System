@@ -26,4 +26,8 @@ int main(){
     }
     return 0;
 }
+<<<<<<< Updated upstream
 //hi
+=======
+//hello
+>>>>>>> Stashed changes
