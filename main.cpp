@@ -4,7 +4,21 @@
 #include<string.h>
 using namespace std;
 
+int exit(){
+    return 0;
+}
+
+void displayoption(){
+    cout<<"Employee  Table (1)"<<endl;
+    cout<<"Add    Employee (2)"<<endl;
+    cout<<"Delete Employee (3)"<<endl;
+    cout<<"Edit   Employee (4)"<<endl;
+    cout<<"Search Employee (5)"<<endl;
+    cout<<"Exit ---------> (6)"<<endl;
+}
+
 int main(){
+    /*
     ofstream file("data.txt");
     file<<"Hello\nhi"<<endl;
     file.close();
@@ -25,4 +39,13 @@ int main(){
         cout<<array[i]<<endl;
     }
     return 0;
+    */
+   displayoption();
+   int i=0;
+   cout<<"Enter Number : ";
+   cin>>i;
+   if (i==6){
+    exit();
+   }
+   return 0;
 }
